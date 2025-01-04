@@ -24,6 +24,7 @@ img {
   --gray: #717FA6;
   --light-gray: #DFE6FB;
   --light-gray2: #717FA6;
+  --light-gray3:#F7F9FF;
 
   /* SHADOWS*/
   --shadow: 0 4px 4px 0  hsla(0, 0%, 0%,0.25);
@@ -116,8 +117,16 @@ a:any-link {
 }
 .main-card-summary-description{
   font: var(--BODY-MOB);
-  max-width: 263px;
+  width: 263px;
   height: 75px;  
-  text-align: center;
- 
+  text-align: center; 
 }
+.main-card-summary-plans-div{
+  width: 279px;
+  height: 81px;
+  background-color: var(--light-gray3);
+  margin: 0rem 1.5rem;
+  border-radius:11px;
+
+}
+
