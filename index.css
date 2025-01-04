@@ -129,4 +129,19 @@ a:any-link {
   border-radius:11px;
 
 }
+.main-card-summary-plans-inner-div{
+  display: flex;
+  flex-flow: row; 
+  align-items: center;
+  padding: 1.0625rem 1rem 1rem 1rem;
+}
+.main-card-summary-plans-price-div{
+  max-width: 81px;
+  height: 40px;
+  display: flex;
+  flex-flow: column;
+  gap: .1875rem;
+  align-items: center;
+}
+
 
