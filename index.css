@@ -181,15 +181,16 @@ img  {
   text-decoration: none;
   color: var(--white);
   padding: 0.9375rem 4.0625rem 0.9375rem 4rem;
+
 }
+
 .main-card-summary-cancel-link{
   margin: 0rem 7.25rem 0rem 7.1875rem;
   text-decoration: none;
   font: var(--BODY-BOLD3);
   color:var(--gray);
   text-transform: capitalize;
-  width: 96px;
-  height: 20px;
+ 
 
 }
 
