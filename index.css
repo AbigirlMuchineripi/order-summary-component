@@ -30,7 +30,7 @@ img {
 
   /* TYPOGRAPHY */
   --FF:"Red Hat Display", sans-serif;
-  --BODY-BOLD-MOB:900 1.375rem (var--FF);
+  --BODY-BOLD-MOB:900 1.375rem var(--FF);
   --BODY-MOB: 500 .9375rem/1.5625rem var(--FF);
   --BODY-BOLD2-MOB: 900 .875rem var(--FF);
   --BODY-MOB2: 500 .875rem var(--FF);
@@ -53,24 +53,23 @@ img {
 .center {
   text-align: center;
 }
-
 .responsive-image {
   display: none;
 }
-
 /* MOBILE FIRST DESIGN */
 /* || GENERAL STYLES */
 html {
   scroll-behavior: smooth;
   font-size: 16px;
 }
-
 body {
   min-height: 100vh;
   max-width: 100%;
   overflow-x: hidden;
+  place-content: center;
+  display:grid;  
+  background-color: var(--lilac);  
 }
-
 h1,
 h2 {
   margin: 0;
@@ -78,7 +77,47 @@ h2 {
   font-size: inherit;
   font-weight: normal;
 }
-
 a:any-link {
   text-decoration: none; 
+}
+.main-card{ 
+  max-width:327px;
+  min-height: 567px;
+  background-color: var(--white);
+  margin: 4.4375rem 1.5rem;
+  border-radius: 20px 20px 0 0;
+}
+.main-card-hero{
+  width: 327px;
+  height: 160px;
+}
+.main-card-hero img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;  
+}
+.main-card-title{
+  font: var(--BODY-BOLD-MOB);
+  margin: 2rem 2rem 1rem 2rem;
+  text-align: center; 
+}
+.main-card-summary{
+  height: 407px;
+  width: 327px;
+  display: flex;
+  flex-flow: column;
+  gap:24px;
+  align-items: center;
+}
+.main-card-summary-description-div{
+  margin:0rem 2rem;
+  align-items: center;  
+}
+.main-card-summary-description{
+  font: var(--BODY-MOB);
+  max-width: 263px;
+  height: 75px;  
+  text-align: center;
+ 
 }
