@@ -95,6 +95,7 @@ h2 {
   background-color: var(--white);
   margin: 4.4375rem 1.5rem;
   border-radius: 20px 20px 20px 20px;
+  box-shadow:var(--shadow);
 }
 .main-card-hero{
   width: 327px;
@@ -188,7 +189,7 @@ img  {
   text-decoration: none;
   color: var(--white);
   padding: 0.9375rem 4.0625rem 0.9375rem 4rem;
-  box-shadow: var(--shadow);
+  box-shadow: var(--button-shadow);
 }
 
 .main-card-summary-cancel-link{
