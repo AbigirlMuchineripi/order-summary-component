@@ -280,6 +280,7 @@ img  {
     max-width: 52px;
     height: 19px;
     margin-left: 94px ;
+    margin-bottom: 2rem;
   }
   .main-card-summary-change-link{   
     font: var(--BODY3);
@@ -287,7 +288,8 @@ img  {
   .main-card-summary-button{
     width: 354px;    
     padding: 0.9375rem 6.375rem;
-    box-shadow: var(--button-shadow);  
+    box-shadow: var(--button-shadow); 
+   
   }  
   .main-card-summary-cancel-link{
     margin: 0rem 11.125rem 3rem 11rem; 
