@@ -109,6 +109,7 @@ h2 {
 }
 .main-card-title{
   font: var(--BODY-BOLD-MOB);
+  color: var(--dark-blue);
   margin: 2rem 2rem 1rem 2rem;
   text-align: center; 
 }
@@ -127,6 +128,7 @@ h2 {
 }
 .main-card-summary-description{
   font: var(--BODY-MOB2);
+ 
   width: 263px;
   height: 75px;  
   text-align: center; 
@@ -163,6 +165,7 @@ img  {
 }
 .main-card-summary-plans-title{
   font: var(--BODY-BOLD2-MOB); 
+  color: var(--dark-blue);
 }
 .main-card-summary-plans-price{
   max-width: 81px;
